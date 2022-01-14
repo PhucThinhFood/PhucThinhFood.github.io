@@ -591,8 +591,8 @@ a:hover {
   color: #fdf2f2;
 }
 /* Scroll to top button*/
-#scrollToTop a {
-  border-radius: 100px;
+.scrollToTop_wraper {
+  display: none;
 }
 .form-control {
   font-family: 'Noto Sans KR', sans-serif;
@@ -1784,4 +1784,32 @@ a {
   list-style-type: none;
   padding: 0;
   color: #ffffff;
+}
+.cid-nDui5pJS0v .hidden {
+  display: none;
+}
+.cid-nDui5pJS0v .floating-bar {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #149dcc;
+  color: #ffffff;
+  border-radius: 50%;
+  text-align: center;
+  box-shadow: 2px 2px 2px #999;
+  transition: 0.3s;
+  z-index: 99999;
+}
+.cid-nDui5pJS0v .floating-bar:hover {
+  background-color: #4db6da;
+}
+.cid-nDui5pJS0v .floating-button {
+  color: #ffffff;
+}
+.cid-nDui5pJS0v .valign {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
 }
